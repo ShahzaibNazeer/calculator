@@ -1,0 +1,87 @@
+@font-face {
+    font-family: iphone;
+    src: url(MyriadPro-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iphone;
+}
+
+body {
+
+    background-color: #a4a4a4;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    color: rgba(248, 248, 248, 255);
+}
+
+header {
+    background: rgba(246, 153, 6, 255);
+}
+
+#container {
+    height: 43vw;
+    width: 22vw;
+    position: relative;
+    left: 37vw;
+    top: 1vw;
+    border-radius: 5vw;
+    background-color: rgba(0, 0, 0, 255);
+    color: rgba(248, 248, 248, 255);
+    border: 0.26vw solid silver;
+    box-shadow: 2px 2px 2px black;
+}
+
+td {
+    font-size: 2.72vw;
+    border-radius: 80vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0vw 0vw 1vw 0px #7c7c783b;
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+    position: relative;
+    top: 16vw;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    height: 6vw;
+    width: 24vw;
+    justify-content: space-evenly;
+    width: 23vw;
+    height: 5vw;
+
+}
+
+.silver {
+    background-color: rgba(159, 159, 159, 255);
+    color: rgba(0, 0, 0, 255);
+}
+
+.yellow {
+    background: rgba(246, 153, 6, 255);
+    color: rgba(248, 248, 248, 255);
+}
+
+.lightBlack {
+    background: rgba(49, 49, 49, 255);
+    color: rgba(248, 248, 248, 255);
+}
